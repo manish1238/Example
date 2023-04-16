@@ -14,6 +14,8 @@ class ColorClass {
   static Color lightGreyTwo = const Color(0xffF4F4F4);
   static Color lightGreyThree = const Color(0xff7C7C7C);
   static Color lightGreyFour = const Color(0xffB4B4B4);
+  static Color lightGreyFive = const Color(0xffE4EEF0);
+  static Color textColor = const Color(0xff4B5B5F);
 
   static Color white = Colors.white;
 }

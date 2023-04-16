@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
 import '../../config.dart';
-import '../../presentation/screens.dart';
+import '../../screens/home/view/home.screen.dart';
 import 'bindings/controllers/controllers_bindings.dart';
 import 'routes.dart';
 

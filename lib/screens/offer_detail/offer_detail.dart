@@ -78,7 +78,7 @@ class _OfferDetailState extends State<OfferDetail> with CommonWidgets {
                       color: ColorClass.orange,
                     ),
                     onRatingUpdate: (rating) {
-                      print(rating);
+                      // print(rating);
                     },
                   ),
                 ),

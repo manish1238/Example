@@ -108,7 +108,10 @@ class _SideBarState extends State<SideBar> {
                 ],
               ),
             ),
-            const Text('Follow us'),
+            const Text(
+              'Follow us',
+              style: TextStyle(fontSize: 12, fontWeight: FontWeight.w400),
+            ),
             const SizedBox(height: 10),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -129,7 +132,10 @@ class _SideBarState extends State<SideBar> {
                   height: 20,
                 ),
               ],
-            )
+            ),
+            const SizedBox(
+              height: 20,
+            ),
           ],
         ),
       ),

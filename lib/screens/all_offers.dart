@@ -20,9 +20,34 @@ class _AllOffersState extends State<AllOffers> with CommonWidgets {
         children: [
           Container(
             padding: const EdgeInsets.all(5),
-            color: Colors.grey.shade100,
-            child: const Text(
-                'rakes dfsdfskljsadf sdflkjsadflsdf safk rakes dfsdfskljsadf sdflkjsadflsdf safk rakes dfsdfskljsadf sdflkjsadflsdf safkjas df;kjsdf'),
+            color: ColorClass.lightGreyFive,
+            child: RichText(
+              text: TextSpan(
+                text: 'Sameer earned ',
+                style: TextStyle(
+                  fontSize: 12.0,
+                  fontWeight: FontWeight.w500,
+                  color: ColorClass.textColor,
+                ),
+                children: <TextSpan>[
+                  TextSpan(
+                    text: ' 452',
+                    style: TextStyle(
+                        fontSize: 12.0,
+                        fontWeight: FontWeight.w500,
+                        color: ColorClass.lightBlueTwo),
+                  ),
+                  TextSpan(
+                    text: ' from BookMyShow offer',
+                    style: TextStyle(
+                      fontSize: 12.0,
+                      fontWeight: FontWeight.w500,
+                      color: ColorClass.textColor,
+                    ),
+                  ),
+                ],
+              ),
+            ),
           ),
           headTitles(
               title: 'Trending offers',
