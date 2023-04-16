@@ -1,0 +1,31 @@
+name: cashking
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.5
+  shimmer:
+  flutter_svg:
+  firebase_core: ^2.9.0
+  firebase_remote_config: ^4.0.0
+  flutter_rating_bar: ^4.0.1
+  flutter_native_splash:
+
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: 2.0.1
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - assets/pngs/
+    - assets/svgs/

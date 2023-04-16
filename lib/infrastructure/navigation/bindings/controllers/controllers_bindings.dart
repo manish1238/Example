@@ -1,0 +1,1 @@
+export 'package:cashking/infrastructure/navigation/bindings/controllers/home.controller.binding.dart'; 
