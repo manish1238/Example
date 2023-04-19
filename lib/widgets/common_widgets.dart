@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:get/get.dart';
 
-import '../screens/offer_detail/offer_detail.dart';
+import '../screens/offer_page/offer_detail.dart';
 import '../utils/color.dart';
 
 mixin CommonWidgets {

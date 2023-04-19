@@ -10,7 +10,7 @@ dependencies:
   get: 4.6.5
   shimmer:
   flutter_svg:
-  firebase_core: ^2.9.0
+  firebase_core:
   firebase_remote_config: ^4.0.0
   flutter_rating_bar: ^4.0.1
   flutter_native_splash:

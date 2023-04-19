@@ -9,7 +9,7 @@ class HomeController extends GetxController with SingleGetTickerProviderMixin {
     super.onInit();
     tabController = TabController(length: 4, vsync: this);
     tabController.addListener(() {
-      update(); // notify GetX that the selected tab has changed
+      update();
     });
   }
 
