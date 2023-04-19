@@ -75,7 +75,7 @@ class _OfferDetailState extends State<OfferDetail> with CommonWidgets {
           : Column(
               children: [
                 ListTile(
-                  leading: Image.asset(
+                  leading: Image.network(
                     widget.productImage,
                     height: 209,
                     width: 109,

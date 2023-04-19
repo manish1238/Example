@@ -133,7 +133,11 @@ mixin CommonWidgets {
           onTap: () => Get.to(OfferDetail(
             productImage: leadingImage,
           )),
-          leading: Image.asset(leadingImage),
+          leading: Image.network(
+            leadingImage,
+            height: 70,
+            width: 70,
+          ),
           title: Text(title),
           subtitle: Row(
             children: [
